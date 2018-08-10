@@ -1,0 +1,159 @@
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0%;
+    margin: 0%;
+    background-color: #f4f4f4;
+}
+/* Global */
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding:0;
+}
+
+/*header */
+header{
+    background: #35424a;
+    color: #fff;
+    padding-top: 10px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+header a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+    /*float:left; */
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #menu{
+    float: left;   
+}
+
+header #menu h1{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+ header form{
+     float: right;
+ }
+
+header .highlight{
+    font-weight: bold; 
+}
+
+header a:hover{
+    color: aqua;
+    font-weight: bold;
+}
+
+/*showcase*/
+#showcase{
+    min-height:400px;
+    background: url('../images/showcase2.jpg') no-repeat 0 -300px;
+    text-align: center;
+    color: #fff;
+   
+}
+
+#showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px
+}
+
+#showcase p{
+    font-size: 20px;
+}
+
+#showcase_signup{
+    min-height: 600px;
+    background: url('../images/showcase2.jpg') no-repeat 0 -300px;
+    text-align: center;
+    color: #fff;
+}
+
+
+
+.quizpanel  {
+    background-color: #f0f2f3;
+    color: #0a0505;
+    padding: 10px 0px; 
+    text-align: center;
+    text-transform: capitalize;
+  }
+  
+  .quizpanel h2  {
+      margin-bottom: 20px;
+      float: left;
+      margin-left: 300px;
+  }
+  
+  
+  .text-bar  {
+    /*border-left: #e8491d solid 4px; */
+    font-size: 1rem;
+    padding: 9px 90px 9px 3px;
+    margin-right: 10px;
+  }
+  
+  .button {
+    background-color: #e8491d;
+    border: none;
+    color: #f4f4f4;
+    font-weight: 700;
+    margin-top: 1em;
+    padding: 13px 14px;
+  }
+  
+  .button:hover  {
+    background-color: #f4f4f4;
+    color: #e8491d;
+  }
+
+  .main{
+      padding: 50px 50px;
+      margin: 5px 20px;
+  }
+
+  #textarea{
+      margin-left: 400px;
+  }
+
+  #btnpost{
+    margin-left: 800px;
+    background-color: #e8491d;
+    border: none;
+    color: #f4f4f4;
+    font-weight: 700;
+    margin-top: 1em;
+    padding: 13px 14px;
+  }
+
+footer {
+  background-color: #49488b;
+  border-top: #35424a solid 3px;
+  color: #f4f4f4;
+  font-size: 1.1rem;
+  padding: 20px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+
