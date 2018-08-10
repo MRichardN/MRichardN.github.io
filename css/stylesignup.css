@@ -45,6 +45,8 @@ hr {
     cursor: pointer;
     width: 100%;
     opacity: 0.9;
+    font-weight: bold;
+    font-size: large;
 }
 
 .registerbtn:hover {
@@ -61,4 +63,11 @@ a {
     background-color: #f1f1f1;
     text-align: center;
     font-weight: bold;
+}
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
 }
