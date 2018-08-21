@@ -154,6 +154,9 @@ footer {
   padding: 20px;
   text-align: center;
   text-transform: capitalize;
+  position: fixed;
+   width: 100%;
+   bottom: 0;
 }
 
 
@@ -177,4 +180,30 @@ tr:nth-child(even) {
 
 .tablecontainer{
     margin: 0 300px;
+}
+
+textarea.wmd-input, textarea#wmd-input {
+    padding: 10px;
+    margin: -1px 0 0;
+    height: 200px;
+    line-height: 1.3;
+    width: 80%;
+    font-family: Consolas,Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,sans-serif;
+    font-size: 14px;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+}
+
+
+.answerscontainer{
+    width: 80%;
+    margin: 20px 400px;
+    overflow: hidden;
+}
+
+.viewans{
+    margin: 40px 400px;
+    padding: 20px;
+    background-color: #dddddd;
 }
