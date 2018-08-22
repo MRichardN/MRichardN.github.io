@@ -37,19 +37,10 @@ button:hover {
     background-color: green;
 }
 
-.imgcontainer {
-    text-align: center;
-    margin: 24px 0 12px 0;
-}
-
-img.avatar {
-    width: 10%;
-    border-radius: 5%;
-}
 
 .container {
-    padding: 16px;
-    margin: 40px 550px;
+    padding: 20px;
+    margin: 50px 600px ;
     background-color: white;
 
 }

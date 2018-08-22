@@ -8,6 +8,15 @@
     <meta name="author" content="Mathenge Richard">
     <link rel="icon" href="../images/logo.png" sizes="18x18">
     <title>StackOverflow-lite | Learn, Share, Build</title>     
+    <style>
+    
+    
+
+    .container{
+        margin: 20px 300px;
+    }
+
+    </style>
 </head>
 <body>
     <header>
@@ -20,30 +29,27 @@
             <ul>
                 <li><a href="index.html"> Home</a></li>
                 <li><a href="profile.html"> Profile</a></li>
-                <li><a href="login.html"> Login</a></li>
-                <li><a href="signup.html"> Signup</a></li>
+                <li><a href="questions.html"> Questions</a></li>
+                <li><a href="login.html"> sign out</a></li>
             </ul>
         </nav>
     </div>
     </header>
-    <section id="showcase">
-        <div class="container">
-        <h1>Learn, Share, Build</h1>
-        <p>Each month, over 50 thousand Andelan developers come to Stack Overflow-lite to learn, share their knowledge, and build their careers.</p>    
-        <p>Join the world’s largest developer community from Andela.</p>
-        </div>
-    </section>
+    
     <div class="quizpanel">
-              <h2>Top Questions</h2>
+              <h2>Top answers</h2>
             <form>
               <label><input class="text-bar" type="text" placeholder="Search..."></label>
               <label><input class="button" type="submit" value="Search"></label>
             </form>
     </div>
     <hr>
-    
+            <div class="container">
+            <textarea id="wmd-input" class="wmd-input wz-element s-input bar0 processed" name="post-text" cols="10" rows="15" tabindex="101" data-wz-state="8" data-min-length="">Enter your answer...
 
-   
+            </textarea>
+            <p><button id="btnpost">Post Your Answer</button></p>
+            </div>
 </body>
 <footer>
    <p> StackOverflow-lite      Copyright          &copy; 2018 </p>
